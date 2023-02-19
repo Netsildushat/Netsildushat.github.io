@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Lemon/Milk(RUS BY LYAJKA)';
+	src: url('../fonts/lemonmilkrus_by_lyajka.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/lemonmilkrus_by_lyajka.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/lemonmilkrus_by_lyajka.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/lemonmilkrus_by_lyajka.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/lemonmilkrus_by_lyajka.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/lemonmilkrus_by_lyajka.svg#lemonmilkrus_by_lyajka') format('svg'); /* Chrome < 4, Legacy iOS */
+}

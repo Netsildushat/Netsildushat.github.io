@@ -1,0 +1,576 @@
+*,
+*:before,
+:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'FuturaBookC';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+.container {
+    max-width: 1230px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* header */
+
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header__inner {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__block {
+    width: 20%;
+}
+
+.header__logo {
+    display: inline-block;
+}
+
+.header__logo img {
+    height: 45.83px;
+    width: 45px;
+}
+
+.header__nav {
+    display: flex;
+}
+
+.nav__link {
+    font-family: 'FuturaLightC';
+    font-style: normal;
+    margin-right: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300px;
+    line-height: 140%;
+    transition: color 0.2 ease;
+}
+
+.nav__link:hover {
+    color: #999999;
+}
+
+.nav__link:last-child {
+    margin: 0;
+}
+
+.header__lng {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__lng--link {
+    margin-left: 12px;
+    font-family: 'FuturaDemiC';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: #999999;
+    text-decoration: none;
+    transition: color 0.2 ease;
+}
+
+.header__lng--link.active {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.header__lng--link:active {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.header__lng--link:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.header__lng--link.icon {
+    padding-top: 3px;
+}
+
+.header__lng--link:first-child {
+    margin: 0;
+}
+
+/* intro */
+
+.intro {
+    background: url("/img/Armen\ AGOP\ -\ A\ Celebration\ of\ Contemporary\ Sculpture\ 1.jpg") no-repeat;
+    background-size: cover;
+    
+}
+
+.intro__content {
+    height: 613px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro__baner {
+    position: absolute;
+    top: 260px;
+}
+
+/* info section 1*/
+
+.section {
+    margin-top: 50px;
+}
+
+.block__title {
+    font-family: 'Lemon/Milk(RUS BY LYAJKA)';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 51px;
+}
+
+.info__block {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.info__time {
+    position: absolute;
+    top: 680px;
+}
+
+.info__time__nav--link {
+    font-family: 'FuturaDemiC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: #999999;
+    margin-left: 12px;
+    text-decoration: none;
+}
+
+.info__time__nav--link:first-child {
+    margin: 0;
+}
+
+.info__time__nav--link.active {
+    border-bottom: 2px solid;
+    color: #252629;
+}
+
+.info__time__nav--link:active {
+    border-bottom: 2px solid;
+    color: #252629;
+}
+
+.info__time__nav--link:hover {
+    border-bottom: 2px solid;
+    color: #252629;
+}
+
+/* exhibition */
+
+.exhibition__inner {
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.exhibition__block {
+    width: 255px;
+    margin-top: 196px;
+}
+
+
+.exh__content {
+    height: 255px;
+    background: url("/img/photo5355082804133736859.jpg");
+}
+
+.exh__title {
+    font-family: 'Lemon/Milk(RUS BY LYAJKA)';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #252629;
+    margin-top: 24px;
+}
+
+.exh__text {
+    margin-top: 6px;
+    font-family: 'FuturaBookC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #252629;
+}
+
+.exhibition__block__2 {
+    width: 540px;
+    margin-top: 54px;
+}
+
+.exh__content--2 {
+    height: 540px;
+    background: url("/img/photo5355082804133736855.jpg");
+}
+
+.exh__title__text {
+    display: flex;
+}
+
+.exh__title--2 {
+    font-family: 'Lemon/Milk(RUS BY LYAJKA)';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 24px;
+}
+
+.exh__text--2 {
+    font-family: 'FuturaBookC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #252629;
+    margin-top: 30px;
+    margin-left: 12px;
+}
+
+.ext__buy__block__text {
+    font-family: 'FuturaBookC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #252629;
+    margin-bottom: 18px;
+}
+
+.exh__btn {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 9px 22px;
+    background: #252629;
+    width: 147px;
+    height: 46px;
+}
+
+.exh__btn__buy {
+    color: #FFFFFF;
+    font-family: 'FuturaBookC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    text-decoration: none;
+}
+
+.exh__btn:hover {
+    background: #999999;
+}
+
+.exh__slide {
+    display: flex;
+    justify-content: end;
+}
+
+.exh__slide__left {
+    margin-right: 18.5px;
+}
+
+.exh__content--3 {
+    height: 255px;
+    background: url("/img/photo5355082804133736881\ 1.jpg");
+    
+}
+
+/* calendar */
+
+.calendar__inner{
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.calendar__title {
+    font-family: 'Lemon/Milk(RUS BY LYAJKA)';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 51px;
+    color: #FFFFFF;
+    margin-top: 100px;
+    padding-top: 100px;
+}
+
+.calendar {
+    background-color: black;
+    margin-top: 100px;
+    height: 730px;
+}
+
+.calendar__block,.calendar__block--2,.calendar__block--3,.calendar__block--4{
+    margin-top: 43px;
+    width: 255px;
+}
+
+
+
+.calendar__content {
+    background: url("/img/mdby……KAJSA\ CRAMER\ 1.jpg");
+    height: 255px;
+}
+
+.calendar__data__time__block {
+    display: flex;
+    align-items: flex-end;
+    justify-content:space-between;
+    padding: 0px;
+    gap: 4px;
+    color: #FFFFFF;
+    margin-top: 13px;
+}
+
+.calendar__data{
+    display: flex;
+    align-items: flex-end;
+    gap: 4px;
+}
+
+.data__one {
+    font-family: 'Lemon/Milk(RUS BY LYAJKA)';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 51px;
+}
+
+.data__two {
+    font-family: 'FuturaBookC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    flex: 0;
+}
+
+.calendar__data__time {
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    width: 65px;
+    margin-bottom: 10px;
+}
+
+.calendar__time {
+    font-family: 'FuturaBookC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+}
+
+.calendar__data__text__block {
+    color: #FFFFFF;
+    margin-top: 7px;
+}
+.calendar__data__text {
+    font-family: 'FuturaBookC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #999999;
+}
+
+.calendar__content--2{
+    background: url("/img/mdby……KAJSA\ CRAMER\ 1\ \(1\).jpg");
+    height: 255px
+}
+
+.calendar__content--3{
+    background: url("/img/mdby……KAJSA\ CRAMER\ 1\ \(2\).jpg");
+    height: 255px
+}
+
+.calendar__content--4{
+    background: url("/img/mdby……KAJSA\ CRAMER\ 1.png");
+    height: 255px
+}
+
+.calendar__slide{
+    display: flex;
+    justify-content: end;
+    margin-top: 80px;
+}
+
+
+/* instagram */
+
+.instagram {
+    height: 600px;
+}
+
+.instagram__title {
+    font-family: 'Lemon/Milk(RUS BY LYAJKA)';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 51px;
+    color: #000000;
+    margin-top: 100px;
+}
+
+.instagram__inner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.instagram__block,.instagram__block--2,.instagram__block--3,.instagram__block--4 {
+    margin-top: 43px;
+    width: 255px;
+}
+
+
+.instagram__content{
+    background: url(/img/One\ Line\ Art\ Face\ Illustration\ Minimalist\ Modern\ Drawing\ _\ Etsy\ 1.jpg);
+    height: 255px;
+}
+
+.instagram__content--2{
+    background: url(/img/One\ Line\ Art\ Face\ Illustration\ Minimalist\ Modern\ Drawing\ _\ Etsy\ 1.png);
+    height: 255px;
+}
+
+.instagram__content--3{
+    background: url(/img/One\ Line\ Art\ Face\ Illustration\ Minimalist\ Modern\ Drawing\ _\ Etsy\ 1\ \(1\).jpg);
+    height: 255px;
+}
+
+.instagram__content--4{
+    background: url(/img/One\ Line\ Art\ Face\ Illustration\ Minimalist\ Modern\ Drawing\ _\ Etsy\ 1\ \(2\).jpg);
+    height: 255px;
+}
+
+/* footer */
+
+.footer{
+    background-color: #000000;
+
+}
+
+.footer__inner {
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__block {
+    width: 100%;
+    height: 80px;
+}
+
+.footer__logo {
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.footer__email__text {
+    font-family: 'FuturaBookC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.footer__email {
+    height: 42px;
+    width: 360px;
+    background: none;
+    border: 1px solid #FFFFFF;
+    padding-left: 20px;
+    font-family: 'FuturaBookC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+}
+
+.placeholder {
+    color: #999999;
+}
+
+.footer__email__block__border{
+    display: flex;
+    margin-top: 10px;
+}
+
+.email__btn{
+    background: #FFFFFF;
+    width: 160px;
+    height: 42px;
+    margin-left: 15px;
+    text-align: center;
+    padding: 7px 30px;
+}
+
+.email__btn__text {
+    font-family: 'FuturaBookC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: #252629;
+    text-decoration: none;
+}
+
+.email__btn:hover{
+    background: #999999;
+}
+
+.footer__block__icon{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 57px;
+}
+
+
+.footer__block__icon__png{
+    margin-left: 20px;
+}
+
+
+
