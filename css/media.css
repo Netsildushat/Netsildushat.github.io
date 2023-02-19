@@ -1,0 +1,143 @@
+@media (max-width:1100px) {
+    .container {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width:1060px) {
+    .exhibition__block {
+        width: 210px;
+    }
+
+    .exh__content {
+        width: 210px;
+        height: 210px;
+    }
+
+    .exh__content--3 {
+        width: 210px;
+        height: 210px;
+    }
+
+    .exhibition__block__2 {
+        width: 510px;
+    }
+    .exh__content--2 {
+        width: 510px;
+        height: 510px;
+    }
+
+    .calendar__block {
+        width: 230px;
+    }
+
+    .instagram__block {
+        width: 230px;
+    }
+}
+
+@media (max-width:960px) {
+
+    .exh__content,
+    .exh__content--3,
+    .exhibition__block {
+        width: 180px;
+        height: 180px;
+    }
+
+    .exh__title,
+    .exh__title--2,
+    .ext__buy__block__text {
+        font-size: 16px;
+    }
+    .exh__text {
+        font-size: 13px;
+    }
+    .exhibition__block__2 {
+        width: 450px;
+    }
+
+    .exh__content--2 {
+        width: 450px;
+        height: 450px;
+    }
+}
+
+@media (max-width:860px) {
+    .nav__link {
+        font-size: 18px;
+    }
+
+    .intro {
+        margin: 0;
+        padding: 0;
+    }
+
+    .exh__content,
+    .exh__content--3,
+    .exhibition__block {
+        display: none;
+    }
+    .exh__text,
+    .exh__title {
+        display: none;
+    }
+
+    .calendar__block--3,
+    .instagram__block--4 {
+        display: none;
+    }
+    .footer__block {
+        width: 50%;
+        height: 80px;
+    }
+
+    .email__btn {
+        width: 100px;
+        padding-left: 10px;
+    }
+    .email__btn__text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:420px) {
+    .calendar__block--2,
+    .calendar__block--3,
+    .calendar__block--4,
+    .footer__email__block,
+    .header__nav,
+    .instagram__block--2,
+    .instagram__block--3 {
+        display: none;
+    }
+
+    .block__title {
+        font-size: 20px;
+    }
+
+    .info__time__nav--link {
+        font-size: 14px;
+    }
+
+    .container,
+    .exh__content--2 {
+        width: 100%;
+    }
+
+    .exh__text--2,
+    .exh__title--2,
+    .ext__buy__block__text {
+        font-size: 12px;
+    }
+
+    .calendar__title,
+    .instagram__title {
+        font-size: 20px;
+    }
+    .calendar__inner,
+    .instagram__inner {
+        display: flexbox;
+        justify-content: center;
+    }
+}
