@@ -140,4 +140,8 @@
         display: flexbox;
         justify-content: center;
     }
+
+    .exh__btn__buy{
+        font-size: 15px;
+    }
 }

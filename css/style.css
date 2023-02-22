@@ -283,6 +283,7 @@ p {
     background: #252629;
     width: 147px;
     height: 46px;
+    cursor: pointer;
 }
 
 .exh__btn__buy {
@@ -545,6 +546,7 @@ p {
     margin-left: 15px;
     text-align: center;
     padding: 7px 30px;
+    cursor: pointer;
 }
 
 .email__btn__text {
@@ -571,6 +573,3 @@ p {
 .footer__block__icon__png{
     margin-left: 20px;
 }
-
-
-
